@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Examples</title>
+
+</head>
+<body>
+    <form action="https://requestb.in/117ruzb1" method="post">
+        <label for="username">Username</label>
+        <input id="username" name="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <label>Select your favorite programming languages:</label>
+        <label>
+            <input type="checkbox" name="languages" value="Javascript"> Javascript
+        </label>
+        <label>
+            <input type="checkbox" name="languages" value="Ruby"> Ruby
+        </label>
+        <label>
+            <input type="checkbox" name="languages" value="Java" checked> Java
+        </label>
+        <label>
+            <input type="checkbox" name="languages" value="PHP"> PHP
+        </label>
+        <label>
+            <input type="checkbox" name="languages" value="Python"> Python
+        </label>
+        <br>
+        <label>What do you prefer?</label>
+        <label>
+            <input type="radio" name="type" value="frontend">
+            Frontend
+        </label>
+        <label>
+            <input type="radio" name="type" value="backend">
+            Backend
+        </label>
+        <br>
+        <label for="framework"> Select your favorite framework:</label>
+        <select name="framework" id="framework">
+            <option value="bootstrap">Bootstrap</option>
+            <option value="spring" selected>Spring</option>
+            <option value="react">React</option>
+        </select>
+        <br>
+        <label for="library"> Select your favorite library:</label>
+        <select name="library" id="library" multiple>
+            <option value="jQuery" selected>jQuery</option>
+            <option value="momentjs">momentJS</option>
+            <option value="tyhmelead">Thymelead</option>
+        </select>
+
+        <input type="hidden" name="identifier" value="nate1">
+
+        <br>
+        <input type="submit" value="Login">
+        <button>Login</button> <!-- This is an easier option -->
+    </form>
+
+</body>
+</html>
