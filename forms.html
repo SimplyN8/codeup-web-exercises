@@ -6,40 +6,52 @@
     <link rel="stylesheet" href="CSS/forms.css">
 </head>
 <body>
-     <h1>Register With Us</h1>
-     <h2>Veridian Dynamics</h2>
-            <hr>
+
+        <header>
+             <div class="container">
+             <h1 id="main">Register With Us</h1>
+             <h2>Veridian Dynamics</h2>
+             </div>
+        </header>
+         <main>
          <form action="https://requestb.in/1mlj0iq1" method="post">
-            <label for="email">Email</label>
+             <div class="container" id="login">
+            <label for="email" class="login">Email</label>
                 <input id="email" name="email" placeholder="Email">
-            <label for="password">Password</label>
+            <label for="password" class="login">Password</label>
                 <input type="password" id="password" name="password" placeholder="Password">
+            </div>
                 <br>
                 <br>
-             <label><strong><em>Bio</em></strong></label>
+             <div class="container" id="bio_area">
+             <label class="bio"><strong><em>Bio</em></strong></label>
                 <br>
-            <label for="bio"></label>
-                <textarea name="bio" id="bio" rows="5" cols="59" placeholder="Enter bio here..."></textarea>
+             <label for="bio" class="bio"></label>
+                <textarea name="bio" id="bio" rows="5" cols="59" placeholder="Enter bio here..." class="bio"></textarea>
+             </div>
                 <br>
-             <p>How did you hear about us?</p>
+             <div class="container" id="feedback">
+             <p id="ad">How did you hear about us?</p>
             <label>
-                <input type="radio" name="advertisement" value="billboard">
+                <input type="radio" name="advertisement" value="billboard" class="radio">
                 Billboard
             </label>
             <label>
-                <input type="radio" name="advertisement" value="radioad">
+                <input type="radio" name="advertisement" value="radioad" class="radio">
                 Radio Advertisement
             </label>
             <label>
-                <input type="radio" name="advertisement" value="internet">
+                <input type="radio" name="advertisement" value="internet" class="radio">
                 Internet Advertisement
             </label>
             <label>
-                <input type="radio" name="advertisement" value="other">
+                <input type="radio" name="advertisement" value="other" class="radio">
                 Other
             </label>
+             </div>
                 <br>
                 <br>
+             <div class="container" id="browser_select">
             <label for="browser"> What web browser do you use?</label>
                 <select name="browser" id="browser">
                     <option value="Chrome" selected>Chrome</option>
@@ -47,8 +59,11 @@
                     <option value="InternetExplorer">Internet Explorer</option>
                     <option value="Safari">Safari</option>
                 </select>
-                <hr>
-            <button>Register</button>
+             </div>
+         </main>
+             <div class="button">
+            <input type="button" value="Register">
+             </div>
         </form>
 </body>
 </html>

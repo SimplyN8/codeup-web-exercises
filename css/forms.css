@@ -1,3 +1,85 @@
-h1 {
-    color: orangered;
+body {
+    font: 20px/1.5 Ariel, Helvetica, san-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+/* Header */
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+
+
+}
+
+
+header h2:hover {
+    /*color: red;*/
+
+}
+
+
+/* Main */
+
+main {
+    background-color: #35424a;
+    color: #EE1133;
+    font-weight: bolder;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    background: url("../img/register.jpg");
+}
+
+#main {
+    font-size: 50px;
+    font-family: Copperplate;
+}
+
+
+/* Login */
+
+#login {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Bio */
+
+#bio_area {
+
+}
+
+/* Feedback */
+
+#ad {
+    text-decoration: underline;
+}
+
+#feedback {
+
+}
+
+/* Browser */
+#browser_select {
+
+}
+
+/* Register */
+.button {
+    text-align: center;
+
 }
