@@ -1,16 +1,16 @@
 body {
     font: 20px/1.5 Ariel, Helvetica, san-serif;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     background-color: #f4f4f4;
 }
+
 /* Global */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     text-align: center;
-
 }
 
 /* Header */
@@ -19,34 +19,49 @@ header {
     background: #35424a;
     color: #ffffff;
     padding-top: 30px;
-    min-height: 70px;
+    min-height: 50px;
     border-bottom: #e8491d 3px solid;
-
-
 }
 
 
-header h2:hover {
-    /*color: red;*/
+h2 {
+    letter-spacing: 25px;
 
 }
-
 
 /* Main */
 
+
+
+.form {
+
+    background-color: lightgray;
+    opacity: 0.95;
+    margin: 35px 275px 35px 275px;
+    border: solid 5px #35424a;
+    padding-bottom: 20px;
+
+
+}
+
+input[type=text] {
+    border: 2px solid #35424a;
+}
+
 main {
-    background-color: #35424a;
+    /*background-color: #35424a;*/
     color: #EE1133;
     font-weight: bolder;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
-    background: url("../img/register.jpg");
+    background: url("../img/register.jpg") #35424a;
 }
+
 
 #main {
     font-size: 50px;
-    font-family: Copperplate;
+    font-family: Copperplate,  Ariel, sans-serif;
 }
 
 
@@ -57,29 +72,33 @@ main {
     padding-top: 10px;
 }
 
-/* Bio */
+/*/* Bio */
 
-#bio_area {
+/*#bio_area {*/
 
-}
+/*}*/
 
-/* Feedback */
+/*/* Feedback */
 
 #ad {
     text-decoration: underline;
 }
 
-#feedback {
+/*#feedback {*/
 
-}
+/*}*/
 
 /* Browser */
 #browser_select {
-
+    padding: -20px;
 }
 
 /* Register */
-.button {
+
+button {
+    font-weight: bold;
+    border-radius: 15px;
     text-align: center;
+
 
 }
