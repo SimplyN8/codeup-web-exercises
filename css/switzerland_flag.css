@@ -1,0 +1,30 @@
+.base {
+    height: 500px;
+    width: 1000px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+}
+
+#vertical {
+    /*border: 1px solid black;*/
+    height: 300px;
+    width: 100px;
+    background-color: #fff;
+    position: fixed;
+    top: 200px;
+    left: 600px;
+
+}
+
+#horizonal {
+    /*border: 1px solid black;*/
+    height: 100px;
+    width: 300px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 405px;
+    left: 500px;
+}
