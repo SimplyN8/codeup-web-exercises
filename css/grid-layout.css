@@ -1,7 +1,4 @@
 
-
-
-
     body {
         width: 100%;
         max-width: 1200px;
@@ -57,33 +54,19 @@
 
     }
 
-    .column-three-quarter {
-        width: 70%;
+    .column-two-third {
+        width: 66.67%
     }
 
 
-    @media screen and (max-width: 375px) {
-        .column-one-half-sm {
+    @media screen and (max-width: 400px) {
+        .column-one-half-sm,
+        .column-one-third-sm,
+        .column-one-fourth-sm,
+        .column-one-eighth-sm,
+        .column-three-quarter-sm {
             width: 100%;
 
-        }
-        .column-one-third-sm {
-            width: 33.33%;
-
-        }
-
-        .column-one-fourth-sm {
-            width: 90%;
-
-        }
-
-        .column-one-eighth-sm {
-            width: 12.5%;
-
-        }
-
-        .column-three-quarter-sm {
-            width: 70%;
         }
     }
 
